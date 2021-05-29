@@ -1,0 +1,19 @@
+{
+  "name": "dinexbot",
+  "version": "0.1.0",
+  "description": "this is a little bot with a financial manager",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot.js"
+  },
+  "repository": "https://github.com/fabriciosenadev/dinexbot.git",
+  "author": "Fabricio Sena <fabricior.sena@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "dependencies": {
+    "telegram-node-bot": "^4.0.5"
+  }
+}
