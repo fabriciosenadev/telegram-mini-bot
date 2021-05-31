@@ -1,13 +1,14 @@
 {
-  "name": "dinexbot",
+  "name": "telegram-mini-bot",
   "version": "0.1.0",
   "description": "this is a little bot with a financial manager",
   "main": "src/bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/bot.js"
+    "start": "node src/bot.js",
+    "dev": "DEBUG=telegram-bot-api* node src/bot.js"
   },
-  "repository": "https://github.com/fabriciosenadev/dinexbot.git",
+  "repository": "https://github.com/fabriciosenadev/telegram-mini-bot.git",
   "author": "Fabricio Sena <fabricior.sena@outlook.com>",
   "license": "MIT",
   "devDependencies": {
